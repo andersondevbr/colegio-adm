@@ -319,7 +319,7 @@ p{margin:0 0 1em}
 /* ---------- responsivo ---------- */
 @media (max-width:1020px){
   .hero__grid{grid-template-columns:1fr;gap:40px}
-  .hero__mural{height:500px;max-width:620px;width:100%;margin:0 auto}
+  .hero__mural{height:620px;max-width:620px;width:100%;margin:0 auto}
   .passos{grid-template-columns:1fr 1fr;padding-right:0}
   .girassol{position:relative;right:auto;bottom:auto;margin:0 auto;align-self:end}
   .painel,.historia__grid,.estrutura__grid,.familia__grid,.visita__grid,.duvidas__grid{grid-template-columns:1fr;gap:44px}
@@ -349,12 +349,12 @@ p{margin:0 0 1em}
   .hero{padding:40px 0 80px}
   .hero__lead{font-size:17px}
   .hero__acoes .btn{flex:1 1 100%}
-  .hero__mural{height:420px}
-  .foto--a{width:74%;height:230px}.foto--a img{height:180px}
-  .foto--b{width:52%;height:200px;top:140px}.foto--b img{height:150px}
-  .foto--c{width:50%;height:170px;right:auto;left:22%;bottom:0}.foto--c img{height:148px}
-  .foto figcaption{font-size:17px}
-  .blocos{left:auto;right:0;bottom:0}
+  .hero__mural{height:470px}
+  .foto--a{width:72%;height:222px;top:14px}.foto--a img{height:172px}
+  .foto--b{width:56%;height:196px;top:250px;right:0;z-index:2}.foto--b img{height:148px}
+  .foto--c{width:46%;height:170px;right:auto;left:0;top:268px;bottom:auto}.foto--c img{height:148px}
+  .foto figcaption{font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .blocos{left:auto;right:2px;top:18px;bottom:auto}
   .bloco{width:52px;height:52px;font-size:30px}
   .rabisco--hero{display:none}
   .proposta,.segmentos,.diario,.historia,.estrutura,.visita{padding-top:84px;padding-bottom:84px}
